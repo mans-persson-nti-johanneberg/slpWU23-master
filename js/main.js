@@ -1,5 +1,5 @@
 
-let button = document.querySelector("#menu-button");
+let button = document.querySelector(".menu-button");
 let menu = document.querySelector(".menu");
 let fade = document.querySelector(".fade-layer");
 

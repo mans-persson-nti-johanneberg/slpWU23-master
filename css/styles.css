@@ -41,7 +41,7 @@ li{
     display: block;
 }
 
-#menu-button{
+.menu-button{
     background-color: red;
     height: 10vh;
     width: 10vw;
@@ -105,6 +105,27 @@ ul{
     color: white;
 }
 
+#container2{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows: 15% 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'h2 h2'
+    'm2 m2'
+    ;
+}
+
+
+#h2{
+    grid-area: h2;
+    background-color:  rgb(246, 188, 1);
+}
+
+#m3{
+    grid-area: m2;
+}
 
 @media(min-width: 600px){
     #m1{
@@ -117,6 +138,8 @@ ul{
         font-size: xx-large;
     }
 }
+
+
 
 
 
