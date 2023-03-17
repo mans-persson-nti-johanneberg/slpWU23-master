@@ -153,6 +153,44 @@ ul{
     margin: 10px;
 }
 
+
+
+#container3{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-areas: 
+    'h3 h3'
+    'm3 m3'
+    ;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15% 1fr;
+}
+
+#h3{
+    grid-area: h3;
+    background-color: yellow;
+}
+
+#m3{
+    grid-area: m3;
+    background-color: violet;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    align-self: center;
+}
+
+
+
+
 @media(min-width: 600px){
     #m1{
         background: url(/img/27302b5a-e5df-4054-b1c5-4890efefecca.jpg);
