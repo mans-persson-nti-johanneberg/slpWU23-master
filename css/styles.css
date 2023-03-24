@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 
-li{
+.menulist{
     margin: 10vh;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -43,11 +43,13 @@ li{
 }
 
 .menu-button{
-    position: relative;
+    position: absolute;
     background-color: red;
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     z-index: 20;
+    left: 0px;
+    
 }
 
 #container{
@@ -157,7 +159,7 @@ ul{
 
 #container3{
     display: grid;
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     grid-template-areas: 
     'h3 h3'
@@ -165,7 +167,7 @@ ul{
     ;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 15% 1fr;
+    grid-template-rows: 111px 1fr;
 }
 
 #h3{
@@ -178,15 +180,53 @@ ul{
     background-color: violet;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around ;
     
 }
 
 .box{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     background-color: tomato;
-    align-self: center;
+    
+
+
 }
+
+
+.receptlista{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.recepth{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+#container4{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    'h4 h4'
+    'm4 m4'
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15% 1fr;
+}
+
+#h4{
+    grid-area: h4;
+    background-color: yellow;
+}
+
+#m4{
+    grid-area: m4;
+}
+
 
 
 
