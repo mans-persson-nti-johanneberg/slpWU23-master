@@ -141,7 +141,7 @@ ul{
 
 #box1{
     width: 100vw;
-    height: 50vh;
+    height: auto;
     align-self: center;
     justify-self: center;
     background-color: burlywood;
@@ -225,6 +225,26 @@ ul{
 
 #m4{
     grid-area: m4;
+}
+
+#bild1{
+    position: absolute;
+    box-shadow: 5px 5px 5px 5px;
+    top: 20%;
+    right: 8%;
+    width: 60%;
+}
+
+#bild2{
+    position: absolute;
+    width: 30%;
+    top: 25%;
+}
+
+#bild3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
 
 
