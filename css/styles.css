@@ -66,16 +66,12 @@ body{
 
 #h1{
     grid-area: h1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
     background-color: rgb(246, 188, 1);
 }
 
 #m1{
     grid-area: m1;
-    background: url(/img/sandwich-gf23a63c87_1920.jpg);
+    background: url(/img/splashmobile.jpg);
     background-repeat: no-repeat;
     background-size: cover; 
 }
@@ -124,11 +120,9 @@ ul{
 
 #h2{
     grid-area: h2;
-    display: flex;
-    background-color:  rgb(246, 188, 1);
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
+    
+    
+ 
 }
 
 #m2{
@@ -167,7 +161,7 @@ ul{
     ;
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 111px 1fr;
+    grid-template-rows: 126.59px 1fr;
 }
 
 #h3{
@@ -229,7 +223,7 @@ ul{
 
 #bild1{
     position: absolute;
-    box-shadow: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.8);
     top: 20%;
     right: 8%;
     width: 60%;
@@ -237,29 +231,79 @@ ul{
 
 #bild2{
     position: absolute;
+    box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.8);
     width: 30%;
     top: 25%;
 }
 
 #bild3{
     position: absolute;
-    top: 50%;
+    bottom: 0%;
     width: 100%;
 }
 
+#bild4{
+    width: 50%;
+    position: absolute;
+    bottom: 40%;
+    left: 45%;
+}
 
+#bild5{
+    width: 35%;
+    position: absolute;
+    top: 53%;
+}
+
+.rubrik{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: yellow;
+}
 
 
 
 @media(min-width: 600px){
     #m1{
-        background: url(/img/27302b5a-e5df-4054-b1c5-4890efefecca.jpg);
+        background: url(/img/splahs.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
 
     ul{
         font-size: xx-large;
+    }
+
+    #box1{
+        width: 20vw;
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: absolute;
+        top: 17%
+    }
+
+    #p1{
+        font-size: xx-large;
+    }
+
+    #container3{
+        height: 100vh;
+        grid-template-rows: 15% 1fr;
+
+    }
+
+    .box{
+        width: 450px;
+        height: 450px;
+    }
+
+    .receptlista{
+        font-size: xx-large;
+        padding-left: 70px;
     }
 }
 
